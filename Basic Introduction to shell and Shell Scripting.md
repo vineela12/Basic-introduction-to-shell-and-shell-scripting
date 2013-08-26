@@ -129,3 +129,17 @@ Use this command:
 2.  **date** --- shows the current date and time.
 3.  **cal** --- shows a calender of the current month.
 4.  **wc filename** --- tells you how many lines,words and characters are there in a file.
+----------
+
+**Permissions**
+-----------------------
+hmm...Premissions are always important aren't they? You can only understand their importance if you were in a hostel. Just kidding ;-)
+
+Will we use these commands often when we deal with premissions.
+
+1. **su or sudo** --- Temporarily become the superuser.
+2. **chown** --- change file ownership.
+3. **chgrp** --- change the file's group ownership.
+4. **chmod options filename** --- Let's you change the read,write and execute permissions on your files.
+
+
