@@ -111,5 +111,5 @@ Use this command:
 1. **mkdir dirname:** --- Creates Directory or make a new directory.
 2. **cd dirname:** --- Change Directory.
 3. **pwd:** --- tells you where you currently are.(present working Directory)
-4. 
+
 ----------
