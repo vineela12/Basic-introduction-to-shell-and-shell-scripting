@@ -118,24 +118,37 @@ Use this command:
    *Example:  man ls*
 5. **ff** --- find the files anywhere on the system.
 6. **grep string filename(s)** --- look for the string in the files.
-7. **whoami**--- Your username is returned.
-8. **finger** --- Pointing your ownself.
-9. **passwd** --- let's you chnage your password.
-10. **last yourusername** --- lists your last logins.
-
+7. **w** --- tells you who's logged in,and what they're doing.
+8. **who** --- tells you who's logged on,and where they're trying to come from.
+9. **whoami**--- Your username is returned.
+10. **finger** --- Pointing your ownself.
+11. **last -l username** --- tells you when the user last logged on or off and from where.
+12. **passwd** --- let's you change your password.
+13. **last yourusername** --- lists your last logins.
+14. **diff file1 file2** --- compares files and shows where they differ.
+ 
 **Been tried doing all these? STOP!! Try this out and have some fun**
 
 1. **webster word** --- looks up the word in an electronic version of webster's dictionary and returns a definition.
 2.  **date** --- shows the current date and time.
 3.  **cal** --- shows a calender of the current month.
 4.  **wc filename** --- tells you how many lines,words and characters are there in a file.
+
+-----------
+**File Compression**
+---------------------
+
+1. **gzip filename** --- compressess files,so that they take up much less space.
+2. **gunzip filename** --- uncompresses files compressed by gzip.
+3. **gzcat filename** --- lets us to look at a gizipped file without actually having to gunzip it.
+
 ----------
 
 **Permissions**
 -----------------------
 hmm...Premissions are always important aren't they? You can only understand their importance if you were in a hostel. Just kidding ;-)
 
-We will use these commands often when we deal with premissions.
+Will we use these commands often when we deal with premissions.
 
 1. **su or sudo** --- Temporarily become the superuser.
 2. **chown** --- change file ownership.
@@ -143,3 +156,11 @@ We will use these commands often when we deal with premissions.
 4. **chmod options filename** --- Let's you change the read,write and execute permissions on your files.
 
 
+![Alt text](http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/images/access1.png)
+
+
+
+
+
+
+ 
