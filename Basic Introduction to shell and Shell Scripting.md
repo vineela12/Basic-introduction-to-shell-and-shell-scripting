@@ -1,18 +1,23 @@
            
           
-  BASIC INTRODUCTION TO SHELL AND SHELL SCRIPTING
-===============================================================
+           
+ BASIC INTRODUCTION TO SHELL 
+===========================================================
 
   
 
 		1. Let's Get Started With Basic Introduction.
 		2. Basic Shell Commands.
-		3. File Operations.
+		3. File Compression.
+		4. Permissions.
+		5. Filters.
+		6. Job Control.
 		
 
 
-
 **1. Let's Get Started With Basic Introduction.**
+---------------------------------------
+
 
 UNIX is a computer Operating System which is capable of handling activities from multiple users at the same time.Users direct the operation of the computer by entering commands as text for a command line interpreter to execute or by creating text scripts of one or more such commands.The shell provides you with an  user interface to the UNIX system. It gathers input from you and executes programs based on that input. When a program finishes executing, it displays that program's output. 
 
@@ -28,22 +33,23 @@ C shell are C shell ( csh),TENEX/TOPS C shell ( tcsh)
 
 The Bourne shell was the first shell to appear on UNIX systems, thus it is referred to as "the shell".
 
-
+----------
 **What's a Terminal :**
 
 It is a program called a terminal emulator.This is a program that opens a window and lets you interact with the shell.Most linux distributions supply several such as: Gnome-terminal,Konsole, XTerm, rxvt, kvt, NXTerm and EXTerm.
 
-
+----------
 **Directory Structure in LINUX systems.**
 
 ![Alt text](http://fsl.fmrib.ox.ac.uk/fslcourse/unix_intro/tree.gif)
 
 Files in Linux system are arranged in Hierarchical Directory Structure.Which means that they are organized in a tree-like pattern of directories.The root directory contains files and sub-directories,which contain more files and sub-directories and so on. 
 
--------------------
+------------------------
 
 **2 .Basic Shell Commands.**
---
+----------------------------------
+
 
 >**NOTE :**The shell is case sensitive.
 
@@ -64,6 +70,8 @@ Follow the below commands to open the file in the editor.
 1. **emacs filename** --- Emacs editor that lets you create and edit a file.
 2. **vi filename** --- vim editor that lets you create and edit a file.
 
+
+
 **3. Want to see the part of the file?**
 
 Use this command:
@@ -71,11 +79,10 @@ Use this command:
 1. **more filename** --- Shows the first part of the file.hit q to quit and 
 "/pattern" to search for a pattern.
 
-----------
 
 
-**File Operations:-**
----
+**4. File Operations:-**
+
 
 **Copy Command:** Copy files and directories.
 
@@ -97,9 +104,9 @@ Use this command:
 **Remove Command:** The rm command removes(deletes) files and directories.
 
 1. **rm file:** Removes a file.
-2. **rm file1 file2:** Removes file1 and file2.
-3. **rm -i file1 file2:** Each file is deleted.
-4. **rm -r dir1 dir2:** Directories dir1 and dir2 are deleted along with all of their contents.
+2. **rm file1 file2** --- Removes file1 and file2.
+3. **rm -i file1 file2** --- Each file is deleted.
+4. **rm -r dir1 dir2** --- Directories dir1 and dir2 are deleted along with all of their contents.
 5. **rm * ~** --- Delete all files in the current working directory that end with the character "~".Some applications create backup files using this naming schema.Using this command will clean them out of a directory.
 
 **Hey!! Want to Make a Directory??OR wanna know more about them? Go This way!**
@@ -126,6 +133,9 @@ Use this command:
 12. **passwd** --- let's you change your password.
 13. **last yourusername** --- lists your last logins.
 14. **diff file1 file2** --- compares files and shows where they differ.
+15. **tr** --- Translates characters 
+*Example: Dos text file -->Unix style test file*
+16. **lynx** --- lets you browse the web from an ordinary terminal.
  
 **Been tried doing all these? STOP!! Try this out and have some fun**
 
@@ -135,7 +145,7 @@ Use this command:
 4.  **wc filename** --- tells you how many lines,words and characters are there in a file.
 
 -----------
-**File Compression**
+**3. File Compression**
 ---------------------
 
 1. **gzip filename** --- compressess files,so that they take up much less space.
@@ -144,7 +154,7 @@ Use this command:
 
 ----------
 
-**Permissions**
+**4. Permissions**
 -----------------------
 hmm...Premissions are always important aren't they? You can only understand their importance if you were in a hostel. Just kidding ;-)
 
@@ -158,8 +168,25 @@ Will we use these commands often when we deal with premissions.
 
 ![Alt text](http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/images/access1.png)
 
+------------------
+**5. Filters**
+--------------------------------------
+
+1. **sort** ---sorts the input and outputs the sorted result.
+2. **grep** ---it examines each line of data it receives from standard input and outputs every line that contains a specified pattern of characters.
+3. **head** --- outputs the few lines of its input useful for getting the header of a file.
+4. **tail** --- outputs the last few lines of its input.
+
+----------
 
 
+**6. Job Control**
+------------------------------
+There are several commands that can be used to control processes.
+
+1. **ps -u yourusername** or alias (jobs) --- Lists your processes in your system that are running.
+2. **Kill ID or Kill all** --- Kilss the processes with the particular id or all id if we use all.
+3. **bg/fg** --- put a process in the background/foreground.
 
 
 
