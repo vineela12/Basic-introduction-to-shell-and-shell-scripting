@@ -1,11 +1,15 @@
-BASIC INTRODUCTION TO SHELL AND SHELL SCRIPTING
+   BASIC INTRODUCTION TO SHELL AND SHELL SCRIPTING
 ===========================================================
 
   
 
-  	1. Let's Get Started With Basic Introduction.
-	2. Basic Shell Commands.
-	
+		1. Let's Get Started With Basic Introduction.
+		2. Basic Shell Commands.
+		
+
+
+
+
 ----------
 
 **1. Let's Get Started With Basic Introduction.**
@@ -31,6 +35,14 @@ The Bourne shell was the first shell to appear on UNIX systems, thus it is refer
 It is a program called a terminal emulator.This is a program that opens a window and lets you interact with the shell.Most linux distributions supply several such as: Gnome-terminal,Konsole, XTerm, rxvt, kvt, NXTerm and EXTerm.
 
 ----------
+**Directory Structure in LINUX systems.**
+
+![Alt text](http://fsl.fmrib.ox.ac.uk/fslcourse/unix_intro/tree.gif)
+
+Files in Linux system are arranged in Hierarchical Directory Structure.Which means that they are organized in a tree-like pattern of directories.The root directory contains files and sub-directories,which contain more files and sub-directories and so on. 
+
+----------
+
 **2 .Basic Shell Commands.**
 
 ----------
@@ -53,12 +65,18 @@ Follow the below commands to open the file in the editor.
 1. **emacs filename** --- Emacs editor that lets you create and edit a file.
 2. **vi filename** --- vim editor that lets you create and edit a file.
 
+----------
+
+
 **3. Want to see the part of the file?**
 
 Use this command:
 
 1. **more filename** --- Shows the first part of the file.hit q to quit and 
 "/pattern" to search for a pattern.
+
+----------
+
 
 **File Operations:-**
 --------------------
@@ -93,5 +111,5 @@ Use this command:
 1. **mkdir dirname:** --- Creates Directory or make a new directory.
 2. **cd dirname:** --- Change Directory.
 3. **pwd:** --- tells you where you currently are.(present working Directory)
-
+4. 
 ----------
