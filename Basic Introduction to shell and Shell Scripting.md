@@ -108,3 +108,8 @@ Use this command:
 2. **cd dirname:** --- Change Directory.
 3. **pwd:** --- tells you where you currently are.(present working Directory).
 4. **file:** --- If you see interesting file,use the file command to determine the contents.
+
+**These might help you when you are messed up.**
+
+1. **type** --- Display information about command type.
+2. **which** --- Locate a command.
