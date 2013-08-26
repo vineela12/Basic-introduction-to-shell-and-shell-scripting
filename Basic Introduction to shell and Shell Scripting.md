@@ -1,5 +1,6 @@
            
-           BASIC INTRODUCTION TO SHELL AND SHELL SCRIPTING
+          
+  BASIC INTRODUCTION TO SHELL AND SHELL SCRIPTING
 ===============================================================
 
   
