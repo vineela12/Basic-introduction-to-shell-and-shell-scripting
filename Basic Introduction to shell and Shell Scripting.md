@@ -135,7 +135,7 @@ Use this command:
 -----------------------
 hmm...Premissions are always important aren't they? You can only understand their importance if you were in a hostel. Just kidding ;-)
 
-Will we use these commands often when we deal with premissions.
+We will use these commands often when we deal with premissions.
 
 1. **su or sudo** --- Temporarily become the superuser.
 2. **chown** --- change file ownership.
