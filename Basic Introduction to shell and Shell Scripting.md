@@ -185,7 +185,7 @@ Will we use these commands often when we deal with premissions.
 There are several commands that can be used to control processes.
 
 1. **ps -u yourusername** or alias (jobs) --- Lists your processes in your system that are running.
-2. **Kill ID or Kill all** --- Kilss the processes with the particular id or all id if we use all.
+2. **Kill ID or Kill all** --- Kills the processes with the particular id or all id if we use all.
 3. **bg/fg** --- put a process in the background/foreground.
 
 
