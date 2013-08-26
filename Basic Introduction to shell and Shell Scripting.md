@@ -60,10 +60,38 @@ Use this command:
 1. **more filename** --- Shows the first part of the file.hit q to quit and 
 "/pattern" to search for a pattern.
 
-**File Operations :-**
+**File Operations:-**
+--------------------
 
-1. **mv filename1 filename2** --- Moves the file from filename1 location to filename2 location.
-2. **cp file1 file2** --- Copies the contents of file1 into file2.
-3. **cp -i file1 file2** --- (-i) interactive option is specified if file2 exists,the user is prompted before it is overwritten with the contents of file1.
+**Copy Command:** Copy files and directories.
+
+
+1. **cp file1 file2** --- Copies the contents of file1 into file2.
+2. **cp -i file1 file2** --- (-i) interactive option is specified if file2 exists,the user is prompted before it is overwritten with the contents of file1.
+3. **cp file1 dir1** --- Copy the contents of file1 inside of directory dir1.
+4. **cp -R dir1 dir2** --- Copy the contents of the directory dir1.If directory dir2 doesnot exist,it is created otherwise,it creates a directory named dir1 within directory2.
+5. **cp * .txt**   text files --- Copy all files in the current working directory with names ending with the characters ".txt" to an existing directory named text-files.
+
+**Move Command:** (mv) command moves or renames files and directories on how it is used.It will either move one or more files to a different directory,or it will rename a file or directory.
+
+1. **mv file1 file2** --- Moves the file from file1 location to file2 location.
+2. **mv -i file1 file2** --- (-i) interactive option is specified if file2 exists,the user is prompted before it is overwritten with the contents of file1.
+3. **mv file1 file2 file3 dir1** --- The file1,2,3 are moved to directory dir1.If dir1 doesnot exist,mv will exit with an error.
+4. **mv dir1 dir2** --- Moves all the files from dir1 to dir2.
+
+
+**Remove Command:** The rm command removes(deletes) files and directories.
+
+1. **rm file:** Removes a file.
+2. **rm file1 file2:** Removes file1 and file2.
+3. **rm -i file1 file2:** Each file is deleted.
+4. **rm -r dir1 dir2:** Directories dir1 and dir2 are deleted along with all of their contents.
+5. **rm * ~** --- Delete all files in the current working directory that end with the character "~".Some applications create backup files using this naming schema.Using this command will clean them out of a directory.
+
+**Hey!! Want to Make a Directory??OR wanna know more about them? Go This way!**
+
+1. **mkdir dirname:** --- Creates Directory or make a new directory.
+2. **cd dirname:** --- Change Directory.
+3. **pwd:** --- tells you where you currently are.(present working Directory)
 
 ----------
