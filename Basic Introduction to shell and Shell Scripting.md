@@ -113,3 +113,19 @@ Use this command:
 
 1. **type** --- Display information about command type.
 2. **which** --- Locate a command.
+3. **help** --- Display reference page for shell builtin.
+4. **man** --- Display an on-line command reference.
+   *Example:  man ls*
+5. **ff** --- find the files anywhere on the system.
+6. **grep string filename(s)** --- look for the string in the files.
+7. **whoami**--- Your username is returned.
+8. **finger** --- Pointing your ownself.
+9. **passwd** --- let's you chnage your password.
+10. **last yourusername** --- lists your last logins.
+
+**Been tried doing all these? STOP!! Try this out and have some fun**
+
+1. **webster word** --- looks up the word in an electronic version of webster's dictionary and returns a definition.
+2.  **date** --- shows the current date and time.
+3.  **cal** --- shows a calender of the current month.
+4.  **wc filename** --- tells you how many lines,words and characters are there in a file.
