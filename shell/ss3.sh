@@ -26,3 +26,5 @@ Find the difference:-
 
 echo this is a   test
 echo "this is a     test"
+
+date;who
